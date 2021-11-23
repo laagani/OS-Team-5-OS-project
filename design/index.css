@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Verdana, Arial;
+}
+:root {
+    --spruce-shade: #2c3e4c;
+    --white-shade: #fdfdfd;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    background: var(--spruce-shade);
+    color: var(--white-shade);
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.main .padd {
+    align-self: flex-start;
+}
+
+.main .padd a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.main .padd svg {
+    width: 27px;
+    height: 27px;
+    color: var(--white-shade);
+}
+
+.main-writing {
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+
+.main .btn {
+    width: 120px;
+    padding: 10px;
+    background: var(--white-shade);
+    color: var(--spruce-shade);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main .btn a{
+    text-decoration: none;
+    color: var(--spruce-shade);
+    padding-right: 15px;
+}
+
+.main .btn svg {
+    padding-right: 5px;
+}
+
+.main .line {
+    width: 2px;
+    height: 350px;
+    background: var(--white-shade);
+    margin: 20px;
+}
+
+.main-heading {
+    width: 30%;
+}
+
+.main-heading h1 {
+    font-size: 40px;
+}
+
+.algos {
+    display: flex;
+    flex-direction: column;
+    background: var(--white-shade);
+    align-items: center;
+}
+
+.algos a {
+    text-decoration: none;
+    color: var(--spruce-shade);
+}
+
+.algos .invi {
+    display: none;
+}
+
+.algos .up-row {
+    display: flex;
+}
+
+.algos .down-row {
+    display: flex;
+}
+
+.algos .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+    border: 1.5px solid var(--spruce-shade);
+    border-radius: 30px;
+    position: relative;
+}
+
+.algos .card .sqr {
+    display: flex;
+    margin-bottom: 40px;
+    width: 95px;
+    height: 95px;
+    background: var(--spruce-shade);
+    justify-content: center;
+    color: var(--white-shade);
+    border-radius: 20px;
+}
+
+.algos .card .sqr .adjust {
+    padding-top: 38px;
+}
+
+.algos .card .line {
+    width: 180px;
+    height: 2px;
+    background: var(--spruce-shade);
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+}
+
+.algos a:hover .invi, .algos a:focus .invi {
+    display: none;
+}
+
+.algos a:hover .visi, .algos a:focus .visi {
+    /* margin-top: 20px; */
+    display: block;
+}
+
+.algos a:hover .line, .algos a:focus .line {
+    margin-top: 10px;
+}
